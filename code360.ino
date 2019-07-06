@@ -94,6 +94,9 @@ lcd.print("Distance: ");
 lcd.print(distanceCm);
 lcd.print(" cm ");
 delay(10);
+  
+lcd.setCursor(13,1);
+lcd.print("   ");
 lcd.setCursor(0,1);
 
 lcd.print("Object is far");
@@ -159,6 +162,9 @@ lcd.print("Distance: "); //
 lcd.print(distanceCm); //
 lcd.print(" cm ");
 delay(10);
+  
+lcd.setCursor(13,1);
+lcd.print("   ");
 lcd.setCursor(0,1);
 lcd.print("Object is far");
 
